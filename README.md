@@ -13,3 +13,4 @@ The intent of this boilerplate is to serve as example for Rails 4 projects creat
 1. Copy Dockerfile, Gemfile and docker-compose.yml to a new folder where you want to create the Rails project
 2. Run, inside the folder, the command `docker-compose build`
 3. Now create the Rails app using `docker-compose run bundle exec rails new . --force --database=postgresql `
+4. After that you do normal Rails' tasks and commands using `docker-compose run rails ...`
